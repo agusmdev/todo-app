@@ -13,7 +13,7 @@ project_description [FastAPI Domain Driven Design (DDD) template]: Example on ho
 author [Agustín Marchi <agusmdev@gmail.com>]: Agustín Marchi <agusmdev@gmail.com>
 first_entity [your_first_entity]: task
 ```
-3) Modified the `Task` model with the correspondant fields (also the update test)
+3) Modified the `Task` model with the correspondant fields (also the `update_task` test)
 4) Done! You have a ToDo App with repository pattern in just 30 seconds!
 
 
