@@ -1,8 +1,20 @@
 # todoapp-backend
 
-## 📖 Description
+## This is an Example of the FastAPI-ddd-template
 
-This is the backend for the Todoapp web application. It is developed in Python using the FastAPI framework to serve endpoints.
+The steps that generated this repository were the following:
+
+1) Run `cookiecutter https://github.com/agusmdev/fastapi-ddd-template.git`
+2) Set the following values:
+```text
+project_name [FastAPI DDD project]: TodoApp
+project_slug [todoapp]: todo-app
+project_description [FastAPI Domain Driven Design (DDD) template]: Example on how to use fastapi-ddd-template
+author [Agustín Marchi <agusmdev@gmail.com>]: Agustín Marchi <agusmdev@gmail.com>
+first_entity [your_first_entity]: task
+```
+3) Modified the `Task` model with the correspondant fields (also the update test)
+4) Done! You have a ToDo App with repository pattern in just 30 seconds!
 
 
 ## 🎯 Summary
